@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Certificate Generator</title>
+</head>
+<body>
+    <header>
+        <img src="./logo.jpg" alt="">
+        <div>
+            <h4>Get Your certificate</h4>
+            <h1>OYSTERS KODE</h1>
+        </div>
+    </header>
+
+    <main>
+        <label for="name">Type Your Name</label>
+        <input placeholder="Enter your name here" type="text" name="Name" id="name" required>
+        <button id="submit">Get Certificate</button>
+    </main>
+    
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js" referrerpolicy="no-referrer"></script>
+</body>
+</html>
